@@ -6,7 +6,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\code\curves\NURBS3D\NURBS3D.hpp">
+    <ClInclude Include="D:\code\curves\NURBS\NURBS3D.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

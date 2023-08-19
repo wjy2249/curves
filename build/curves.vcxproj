@@ -298,7 +298,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\code\curves\test.cpp" />
-    <ClInclude Include="D:\code\curves\NURBS3D\NURBS3D.hpp" />
+    <ClInclude Include="D:\code\curves\NURBS\NURBS3D.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\code\curves\build\ZERO_CHECK.vcxproj">

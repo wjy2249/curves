@@ -1,6 +1,6 @@
 #include<cstdio>
 #include<vector>
-#include"NURBS3D/NURBS3D.hpp"
+#include"NURBS/NURBS3D.hpp"
 #define eps 1e-7
 
 int main() 
