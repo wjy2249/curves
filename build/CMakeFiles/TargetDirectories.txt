@@ -1,0 +1,3 @@
+D:/code/curves/build/CMakeFiles/curves.dir
+D:/code/curves/build/CMakeFiles/ALL_BUILD.dir
+D:/code/curves/build/CMakeFiles/ZERO_CHECK.dir
