@@ -1,4 +1,5 @@
 #include <vector>  
+#define eps 1e-7
 
 struct Point3D
 {
@@ -51,7 +52,7 @@ private:
         {
             mid = (high + low) >> 1;
 
-            if (t < knots_[mid])
+            if (t < knots_[mid]-eps)
                 high = mid;
             else
                 low = mid;
