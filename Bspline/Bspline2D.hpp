@@ -5,7 +5,6 @@ struct Point2D
 {
     double x;
     double y;
-    double z;
 };
 
 class BSplineCurve2D
