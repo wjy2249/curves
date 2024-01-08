@@ -18,13 +18,13 @@ events:
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
-      Build flags: /DWIN32;/D_WINDOWS
+      Build flags: 
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      生成启动时间为 2023/8/19 16:52:44。
+      生成启动时间为 2023/8/22 11:28:35。
       
       节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\3.27.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
       PrepareForBuild:
@@ -51,7 +51,7 @@ events:
           0 个警告
           0 个错误
       
-      已用时间 00:00:00.49
+      已用时间 00:00:00.65
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -71,13 +71,13 @@ events:
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
-      Build flags: /DWIN32;/D_WINDOWS;/EHsc
+      Build flags: 
       Id flags:  
       
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      生成启动时间为 2023/8/19 16:52:44。
+      生成启动时间为 2023/8/22 11:28:36。
       
       节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\3.27.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
       PrepareForBuild:
@@ -104,7 +104,7 @@ events:
           0 个警告
           0 个错误
       
-      已用时间 00:00:00.40
+      已用时间 00:00:00.42
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,8 +123,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-mpmpm0"
-      binary: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-mpmpm0"
+      source: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-4012s8"
+      binary: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-4012s8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -133,38 +133,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-mpmpm0'
+        Change Dir: 'D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-4012s8'
         
-        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_37fc2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1928c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        生成启动时间为 2023/8/19 16:52:45。
+        生成启动时间为 2023/8/22 11:28:36。
         
-        节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpmpm0\\cmTC_37fc2.vcxproj”(默认目标)。
+        节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4012s8\\cmTC_1928c.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_37fc2.dir\\Debug\\”。
-          正在创建目录“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpmpm0\\Debug\\”。
-          正在创建目录“cmTC_37fc2.dir\\Debug\\cmTC_37fc2.tlog\\”。
+          正在创建目录“cmTC_1928c.dir\\Debug\\”。
+          正在创建目录“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4012s8\\Debug\\”。
+          正在创建目录“cmTC_1928c.dir\\Debug\\cmTC_1928c.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_37fc2.dir\\Debug\\cmTC_37fc2.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_1928c.dir\\Debug\\cmTC_1928c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37fc2.dir\\Debug\\\\" /Fd"cmTC_37fc2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1928c.dir\\Debug\\\\" /Fd"cmTC_1928c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
-          CMakeCCompilerABI.c
           版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37fc2.dir\\Debug\\\\" /Fd"cmTC_37fc2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1928c.dir\\Debug\\\\" /Fd"cmTC_1928c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpmpm0\\Debug\\cmTC_37fc2.exe" /INCREMENTAL /ILK:"cmTC_37fc2.dir\\Debug\\cmTC_37fc2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-mpmpm0/Debug/cmTC_37fc2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-mpmpm0/Debug/cmTC_37fc2.lib" /MACHINE:X64  /machine:x64 cmTC_37fc2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_37fc2.vcxproj -> D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpmpm0\\Debug\\cmTC_37fc2.exe
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4012s8\\Debug\\cmTC_1928c.exe" /INCREMENTAL /ILK:"cmTC_1928c.dir\\Debug\\cmTC_1928c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-4012s8/Debug/cmTC_1928c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-4012s8/Debug/cmTC_1928c.lib" /MACHINE:X64  /machine:x64 cmTC_1928c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1928c.vcxproj -> D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4012s8\\Debug\\cmTC_1928c.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_37fc2.dir\\Debug\\cmTC_37fc2.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_37fc2.dir\\Debug\\cmTC_37fc2.tlog\\cmTC_37fc2.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpmpm0\\cmTC_37fc2.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_1928c.dir\\Debug\\cmTC_1928c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1928c.dir\\Debug\\cmTC_1928c.tlog\\cmTC_1928c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4012s8\\cmTC_1928c.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:00.45
+        已用时间 00:00:00.50
         
       exitCode: 0
   -
@@ -176,8 +176,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-sctiqh"
-      binary: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-sctiqh"
+      source: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-1a7puj"
+      binary: "D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-1a7puj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -186,38 +186,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-sctiqh'
+        Change Dir: 'D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-1a7puj'
         
-        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bbe01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "D:/visual studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cdfae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        生成启动时间为 2023/8/19 16:52:45。
+        生成启动时间为 2023/8/22 11:28:37。
         
-        节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sctiqh\\cmTC_bbe01.vcxproj”(默认目标)。
+        节点 1 上的项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a7puj\\cmTC_cdfae.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_bbe01.dir\\Debug\\”。
-          正在创建目录“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sctiqh\\Debug\\”。
-          正在创建目录“cmTC_bbe01.dir\\Debug\\cmTC_bbe01.tlog\\”。
+          正在创建目录“cmTC_cdfae.dir\\Debug\\”。
+          正在创建目录“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a7puj\\Debug\\”。
+          正在创建目录“cmTC_cdfae.dir\\Debug\\cmTC_cdfae.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_bbe01.dir\\Debug\\cmTC_bbe01.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_cdfae.dir\\Debug\\cmTC_cdfae.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbe01.dir\\Debug\\\\" /Fd"cmTC_bbe01.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdfae.dir\\Debug\\\\" /Fd"cmTC_cdfae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32537 版
           CMakeCXXCompilerABI.cpp
           版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbe01.dir\\Debug\\\\" /Fd"cmTC_bbe01.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdfae.dir\\Debug\\\\" /Fd"cmTC_cdfae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\cmake\\cmake-3.27.0-rc5-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sctiqh\\Debug\\cmTC_bbe01.exe" /INCREMENTAL /ILK:"cmTC_bbe01.dir\\Debug\\cmTC_bbe01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-sctiqh/Debug/cmTC_bbe01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-sctiqh/Debug/cmTC_bbe01.lib" /MACHINE:X64  /machine:x64 cmTC_bbe01.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_bbe01.vcxproj -> D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sctiqh\\Debug\\cmTC_bbe01.exe
+          D:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a7puj\\Debug\\cmTC_cdfae.exe" /INCREMENTAL /ILK:"cmTC_cdfae.dir\\Debug\\cmTC_cdfae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-1a7puj/Debug/cmTC_cdfae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/code/curves/build/CMakeFiles/CMakeScratch/TryCompile-1a7puj/Debug/cmTC_cdfae.lib" /MACHINE:X64  /machine:x64 cmTC_cdfae.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cdfae.vcxproj -> D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a7puj\\Debug\\cmTC_cdfae.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_bbe01.dir\\Debug\\cmTC_bbe01.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_bbe01.dir\\Debug\\cmTC_bbe01.tlog\\cmTC_bbe01.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sctiqh\\cmTC_bbe01.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_cdfae.dir\\Debug\\cmTC_cdfae.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cdfae.dir\\Debug\\cmTC_cdfae.tlog\\cmTC_cdfae.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\code\\curves\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a7puj\\cmTC_cdfae.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:00.47
+        已用时间 00:00:00.48
         
       exitCode: 0
 ...
